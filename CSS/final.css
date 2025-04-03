@@ -1,0 +1,528 @@
+body{
+	font-family: 'monaco', monospace;
+	 margin: 0px;
+	 background-color: whitesmoke;
+}
+#section-1{
+	background-color: whitesmoke;
+	height: 600px;
+}
+header{
+	padding: 24px;
+	display: flex;
+	justify-content: space-around;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+nav{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px 16px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #4e5052;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #e0af3f;
+}
+.main-leading{
+	margin-top: 200px;
+	text-align: center;
+}
+.main-leading h2{
+	font-size: 20px;
+	margin-bottom: 140px;
+	font-family: 'Lucida console', monospace;
+
+}
+#section-2{
+	background-color: white;
+	height: 600px;
+	margin: 0px;
+}
+
+
+.title-box h2{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 70px;
+	font-size: 25px;
+	letter-spacing: 20px;
+
+}
+.title-box .line{
+	width: 200px;
+	height: 2px;
+	border-radius: 5px;
+	background-color: #9F5C59;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.service-box{
+	margin-top: 80px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 70px;
+}
+.service{
+	text-align: center;
+	width: 35%;
+	
+}
+.service img{
+	border-radius: 50%;
+	filter: blur(1.5px);
+	transition: .3s ease-in-out;
+}
+.service:hover img{
+	filter: blur(0);
+}
+.service button{
+
+	font-size: 24px;
+	margin-top: 40px;
+}
+.food{
+	font-family: 'monaco' , monospace;
+	font-size: 5px;
+	background-color: white;
+	border-radius: 8px;
+	color: #4d1919;
+	border-color: #e0af3f; 
+    padding: 5px;
+}
+.food:hover{
+	background-color: #4d1919;
+    color: white;
+    
+}   
+.meals{
+	text-align: center;
+}
+
+#section-3{
+	background-color: whitesmoke;
+	height: 900px;
+}
+.title-box1 h1{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 70px;
+	font-size: 25px;
+}
+.recipe-box{
+	margin-top: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 230px;
+}
+.recipe  {
+	text-align: center;
+	width: 25%;
+ }
+ .recipe a{
+ 	text-align: center;
+    color:  #4d1919;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.recipe  a:hover {
+    color: #FF7F50;
+}
+.recipe-box1{
+	margin-top: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 230px;
+}
+.recipe1  {
+	text-align: center;
+	width: 25%;
+ }
+ .recipe1 a{
+ 	text-align: center;
+    color:  #4d1919;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.recipe1  a:hover {
+    color: #FF7F50;
+}
+#section-4{
+	background-color: white;
+	height: 720px;
+	margin: 0px;
+}
+.title-box .line1{
+	width: 100px;
+	height: 3px;
+	border-radius: 5px;
+	background-color: #9F5C59;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.aboutus{
+	width: 90%;
+	
+	margin-top: 80px;
+}
+.content-left{
+width: 45%;
+float: left;
+padding-left: 10%;
+}
+.content-left img{
+	border-radius: 20%;
+
+
+}
+.content-right{
+	
+	width: 40%;
+	float: right;
+}
+
+.content-right p{
+	font-size: 20px;
+	font-family: 'monaco' , monospace;
+} 
+.content-right h1{
+	color: #8B0000;
+} 
+.content-right button{
+	font-family: 'monaco' , monospace;
+	font-size: 22px;
+	background-color: white;
+	border-radius: 8px;
+	color: #4d1919;
+	border-color: #9F5C59; 
+    padding: 5px;
+    
+}
+.button{
+	text-align: center;
+	width: 270px;
+    height: 80px;
+    transition: width 1s, height 1s;
+}
+.button:hover {
+	width: 400px; 
+	height: 80px;
+}
+.button button:hover {
+	background-color: #4d1919;
+    color: white;
+}
+#section-5{
+	background-color: whitesmoke;
+	height: 1400px;
+}
+a{
+    text-decoration: none;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px 20px;
+    background: #fafafa; 
+
+}
+.product-box1{
+	margin-top: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px 50px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 15px;
+    background: white;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+.product-details h4 a{
+	color: #9F5C59;
+}
+
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 3px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #e0af3f;
+    font-weight: 600;
+}
+
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: ;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+#section-6{
+	background-color: white;
+	height: 800px;
+}
+.form-row{
+	display: flex;
+}
+input[type="text"], input[type=email]{
+	width: 200px;
+	height: 56px;
+}
+input[type="text"], input[type=email], textarea{
+	font-family:  'monaco', monospace;
+	color: white;
+	background-color: whitesmoke;
+	border-color: #9F5C59;
+	font-size: 18px;
+	margin: 16px;
+	border-radius: 5px;
+	padding-left: 26px;
+}
+textarea{
+	height: 200px;
+	width: 460px;
+	padding-top: 24px;
+	color: #e0af3f;
+}
+textarea:active{
+border-color: #e0af3f;
+}
+input[type="submit"]{
+	background-color: whitesmoke;
+	color: #9F5C59;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+    border-color: #9F5C59;
+}
+
+.contact-form{
+	padding-left: 350px;
+	padding-top: 50px;
+}
+.big-button{
+	padding: 25px 85px;
+	color: white;
+}
+.big-button:hover{
+	color: white;
+	background-color: #9F5C59;
+	border: none;
+}
+input[type=email]{
+	width: 465px;
+}
+#section-7{
+	background-color: whitesmoke;
+	}
+
+.content-left ul {
+	list-style-type: none;
+	padding-top: 80px;
+
+}
+footer .content-right{
+	padding-top: 60px;
+	font-size: 15px;
+}
+.content-left{
+	text-decoration: none;
+	font-family: 'monaco', monospace;
+	font-size: 16px; 
+}
+.chocolate-chip{
+	background-color: whitesmoke;
+	margin: 0px;
+	padding: 0px;
+}
+.white{
+	height: 690px;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	margin: 0px 40px;
+	margin-top: 0px;
+
+
+}
+#section-11{
+	background-color: whitesmoke;
+	height: 300px;
+}
+.left-8 p{
+   width: 400px;
+}
+.img{
+  padding-right: 50px;
+}
+.breakfast1 button{
+	margin-top: 50px;
+	font-family: 'monaco' , monospace;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 8px;
+	color: #4d1919;
+	border-color: black; 
+    padding: 5px;
+}
+.breakfast1 button:hover{
+	background-color: #4d1919;
+    color: white;
+
+}
+.breakfast1{
+	text-align: center;
+}
+.left-8 ul li{
+   list-style-type: none;
+   padding-top: 5px;
+
+}
+.right-8 p{
+	padding-right: 50px;
+	padding-left: 70px;
+}
+.pa{
+   padding-left:50px;
+}
+.pa p{
+   width: 300px;
+   height: 200px;
+   padding: 0px;
+}
+.title-box2{
+	width: 150px;
+	height: 0px;
+
+}
+.title-box2 h2{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 50px;
+	font-size: 25px;
+	letter-spacing: 15px;
+	padding-left: 500px;
+	
+
+}
+.title-box2 .line2{
+	width: 100px;
+	height: 3px;
+	border-radius: 5px;
+	background-color: #9F5C59;	
+	margin-left:550px;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+#aboutme{
+	border-radius: 0%;
+	padding-left: 150px;
+	margin-bottom:  300px;
+}
+.recipe-box2{
+	margin-top: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 230px;
+}
+.recipe2  {
+	text-align: center;
+	width: 25%;
+ }
+ .recipe2 a{
+ 	text-align: center;
+    color:  #4d1919;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.recipe2  a:hover {
+    color: #FF7F50;
+}
+.left-8a{
+	padding-left: 80px;
+	padding-top: 90px;
+}
+.right-8b p{
+	padding-right: 50px;
+	padding-left: 70px;
+}
+.title{
+	padding-top: 90px;
+	padding-left: 40px;
+	font-size: 40px;
+	margin: 0;
+}
+.title1{
+	padding-left: 45px;
+	padding-top: 1px;
+    color:  grey;
+}
+.paragraf{
+	padding-right: 60px;
+	font-size: 17px;
+	padding-top: 40px;
+	color: #3a3b0f;
+}
+.product-price1 {
+    font-size: 18px;
+    color: #e0af3f;
+    font-weight: 600px;
+    padding-left: 50px;
+    font-size: 25px;
+}
